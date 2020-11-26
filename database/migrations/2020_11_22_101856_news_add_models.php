@@ -18,6 +18,7 @@ class NewsAddModels extends Migration
             $table->string('news_name');
             $table->string('news_author');
             $table->text('news_text');
+            $table->text('news_img');
         });
     }
 

@@ -26,7 +26,8 @@ class NewsAddRequest extends FormRequest
         return [
             'news_name' => 'required|min:2|max:100',
             'news_author' => 'required|min:2|max:100',
-            'news_text' => 'required|min:10|max:500'
+            'news_text' => 'required|min:10|max:500',
+            'news_img' => 'sometimes'
         ];
     }
 }

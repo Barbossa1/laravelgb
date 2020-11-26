@@ -133,6 +133,11 @@
       <path value="$PROJECT_DIR$/vendor/socialiteproviders/vkontakte" />
       <path value="$PROJECT_DIR$/vendor/socialiteproviders/manager" />
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/orchestra/parser" />
+      <path value="$PROJECT_DIR$/vendor/laravie/parser" />
+      <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTBCGA32D1AVcDKKpueCoJQZNY" />
@@ -144,14 +149,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\resources\views\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\app\Http\Controllers\Admin" />
       <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\app\Http\Controllers" />
       <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\resources\views\news" />
       <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\resources\views" />
       <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\app\Http\Controllers\News" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyFiles\GkBr\openserver\OpenServer\domains\site\winter\resources\views\admin" />
     </key>
   </component>
@@ -191,6 +196,7 @@
       <workItem from="1606038122571" duration="9651000" />
       <workItem from="1606049152312" duration="2571000" />
       <workItem from="1606116192314" duration="2916000" />
+      <workItem from="1606302267600" duration="5452000" />
     </task>
     <servers />
   </component>

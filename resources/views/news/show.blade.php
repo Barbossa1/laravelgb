@@ -6,5 +6,6 @@
         <hr>
         <h2>{{ $news->news_author }}</h2>
         <p>{{ $news->news_text }}</p>
+{{--        <img src="{{ $news->news_img }}" class="img-fluid" alt="img">--}}
     </div>
 @stop

@@ -12,12 +12,25 @@
             </ul>
         </div>
     @endif
-    <form method="post" action="{{ route('addNews') }}">
+    <form method="post" action="{{ route('addNews') }}" enctype="multipart/form-data">
         @csrf
-        <input type="text" name="news_name" id="news_name" placeholder="Введите заголовок" class="form-control"><br>
-        <input type="text" name="news_author" id="news_author" placeholder="Введите автора" class="form-control"><br>
-        <textarea name="news_text" id="news_text" class="form-control" placeholder="Введите новость"></textarea><br>
+        <p>Заголовок: <input type="text" name="news_name" id="news_name" placeholder="Введите заголовок" class="form-control"></p><br>
+        <p>Автор: <input type="text" name="news_author" id="news_author" placeholder="Введите автора" class="form-control"></p><br>
+        <p>Новость: <textarea name="news_text" id="news_text" class="form-control" placeholder="Введите новость"></textarea></p><br>
+{{--        <p>Изображение: <input type="file" name="news_img" id="news_img" class="form-control"></p><br>--}}
         <button type="submit" class="btn btn-success">Добавить</button>
     </form>
     <br>
 @endsection
+@push('js')
+    <script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/classic/ckeditor.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            ClassicEditor
+                .create(document.querySelector('#news_text'))
+                .catch(error => {
+                    console.error( error );
+                });
+        });
+    </script>
+@endpush

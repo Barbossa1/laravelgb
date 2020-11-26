@@ -18,8 +18,10 @@ Route::get('/', [App\Http\Controllers\MainController::class, 'index'])
 
 //Admin
 Route::group(['middleware' => 'admin'], function () {
-    Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])
+    Route::get('/admin', [App\Http\Controllers\Admin\AdminController::class, 'index'])
         ->name('admin');
+    Route::get('/parser', [App\Http\Controllers\Admin\ParserController::class, 'index'])
+        ->name('parser');
 });
 
 //Feedback
