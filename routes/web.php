@@ -44,9 +44,18 @@ Route::group(['middleware' => 'auth'], function () {
         ->name('addNews');
 });
 
+//Scraper
+Route::get('/scraper_news', [App\Http\Controllers\ScraperNewsController::class,'get_news'])
+    ->name('scraper_news');
+Route::get('/scraper_news/{id}', [App\Http\Controllers\ScraperNewsController::class, 'show'])
+    ->name('news.scraper_show');
+Route::get('/get_news', [App\Http\Controllers\ScraperNewsController::class, 'addScrNews']);
+
+//About
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])
     ->name('about');
 
+//Home
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
     ->name('home');

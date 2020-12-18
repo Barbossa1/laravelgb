@@ -138,6 +138,10 @@
       <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTBCGA32D1AVcDKKpueCoJQZNY" />
@@ -197,6 +201,11 @@
       <workItem from="1606049152312" duration="2571000" />
       <workItem from="1606116192314" duration="2916000" />
       <workItem from="1606302267600" duration="5452000" />
+      <workItem from="1607948626508" duration="6268000" />
+      <workItem from="1608027868460" duration="7204000" />
+      <workItem from="1608109439580" duration="13113000" />
+      <workItem from="1608206277332" duration="1601000" />
+      <workItem from="1608294608536" duration="1147000" />
     </task>
     <servers />
   </component>

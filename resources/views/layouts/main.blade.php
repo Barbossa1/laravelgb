@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -60,9 +60,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('news') }}">Новости</a>
                                 </li>
-{{--                                <li class="nav-item">--}}
-{{--                                    <a class="nav-link" href="{{ route('news_add') }}">Добавить новость</a>--}}
-{{--                                </li>--}}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('scraper_news') }}">РБК</a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('feedback') }}">Обратная связь</a>
                                 </li>
